@@ -28,7 +28,12 @@ nav{
     grid-template-columns: 150px 1fr;
 }
 #article{
-    padding-left: 25px;
+    padding: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-left: 1px solid;
+    border-right: 1px solid;
+
 }
 
 #topMenu ul li{
