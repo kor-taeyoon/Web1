@@ -4,7 +4,6 @@ a{
     text-decoration:none;
 }
 h1{
-    border-bottom: 2px solid;
     font-size:45px;
     text-align:center;
     margin: 0px;
@@ -16,10 +15,39 @@ ol{
     margin: 0;
     padding: 20px;
 }
+nav{
+    padding: 0px;
+    display: block;
+    text-align: center;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+}
+
 #grid{
     display: grid;
     grid-template-columns: 150px 1fr;
 }
 #article{
     padding-left: 25px;
+}
+
+#topMenu ul li{
+    list-style: none;
+    color: white;
+    background-color: lightslategrey;
+    display: inline-block;
+    line-height: 30px;
+    vertical-align: middle;
+    text-align: center;
+}
+#topMenu .menuLink{
+    text-decoration: none;
+    color: white;
+    display: block;
+    width: 150px;
+    font-size: 12px;
+    font-weight: bold;
+}
+#topMenu .menuLink:hover{
+    background-color: black;
 }
