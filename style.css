@@ -33,7 +33,10 @@ nav{
     margin-right: 100px;
     border-left: 1px solid;
     border-right: 1px solid;
+}
 
+#project_lists li{
+    padding: 10px;
 }
 
 #topMenu ul li{
